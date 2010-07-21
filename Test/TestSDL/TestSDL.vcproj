@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="../../sdl/include;../../sdl_image"
+				AdditionalIncludeDirectories="../../sdl/include;../../sdl_image;./include"
 				PreprocessorDefinitions="_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -61,7 +61,8 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="sdl_d.lib SDL_image_d.lib opengl32.lib glu32.lib"
+				AdditionalDependencies="sdl_d.lib SDL_image_d.lib opengl32.lib glu32.lib libjson.lib"
+				OutputFile="../../workspace/$(ProjectName)_d.exe"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="../../lib"
 				GenerateDebugInformation="true"
@@ -183,6 +184,42 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<Filter
+				Name="json"
+				>
+				<File
+					RelativePath=".\include\json\autolink.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\json\config.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\json\features.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\json\forwards.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\json\json.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\json\reader.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\json\value.h"
+					>
+				</File>
+				<File
+					RelativePath=".\include\json\writer.h"
+					>
+				</File>
+			</Filter>
 		</Filter>
 		<Filter
 			Name="Resource Files"

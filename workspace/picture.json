@@ -1,0 +1,27 @@
+[
+{
+	"name" : "dragon.png",
+		"rotation" : 0,
+		"positionX" : -0.5,
+		"positionY" : 0.0,
+		"scaleX" : 0.3,
+		"scaleY" : 1.0
+},
+{
+	"name" : "dragon.png",
+	"rotation" : 0,
+	"positionX" : 0.5,
+	"positionY" : 0.0,
+	"scaleX" : -0.3,
+	"scaleY" : 1.0
+},
+{
+	"name" : "dragon.png",
+	"rotation" : 90,
+	"positionX" : 0.0,
+	"positionY" : -0.5,
+	"scaleX" : 1.0,
+	"scaleY" : 1.0
+}
+]
+
